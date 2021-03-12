@@ -14,8 +14,8 @@ namespace HomeWork4
             var a = 1;
             var b = 3;
             var c = 0;
-
             Console.WriteLine($"{a}, {b}");
+
             c = a;
             a = b;
             b = c;
@@ -24,8 +24,8 @@ namespace HomeWork4
             //variant b
             a = 1;
             b = 3;
-
             Console.WriteLine($"{a}, {b}");
+
             a = a + b;
             b = b - a;
             b = -b;
