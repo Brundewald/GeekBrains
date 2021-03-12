@@ -21,8 +21,8 @@ namespace HomeWork
             short weight = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine ($"\n Questionary.\n First name and Last name: {name_and_lastname}\n Age: {age}\n Height: {height};\n Weight: {weight}");
             //Variant "a".
-            Console.WriteLine("\n Questionary. First name and Last name:" + " " + name_and_lastname + " Age:" + " " + age + " Height:" + " " + height + " Weight:" + " " + weight);
-            //I dont see a point in varian "b" cause i did it already.
+            Console.WriteLine("\n Questionary. First name and Last name: {0} Age: {1}  Height: {2}  Weight: {3}", name_and_lastname, age, height, weight);
+            //I dont see a point in variant "b" cause i've done it already.
             // Variant "c"
             Console.WriteLine($"\n Questionary. First name and Last name: {name_and_lastname} Age: {age} Height: {height} Weight: {weight}");
             Console.ReadKey();
