@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/**********
+ * 
+ * Mialkin Nikita
+ * 
+ * 
+ * **********/
+
+
 namespace HomeWork4
 {
     class Program
@@ -15,6 +23,7 @@ namespace HomeWork4
             var b = 3;
             var c = 0;
             Console.WriteLine($"{a}, {b}");
+
             c = a;
             a = b;
             b = c;
@@ -24,6 +33,7 @@ namespace HomeWork4
             a = 1;
             b = 3;
             Console.WriteLine($"{a}, {b}");
+
             a = a + b;
             b = b - a;
             b = -b;

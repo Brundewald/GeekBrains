@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/**********
+ * 
+ * Mialkin Nikita
+ * 
+ * 
+ * **********/
+
 namespace HomeWork3
 {
     class Program
